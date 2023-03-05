@@ -5,6 +5,8 @@ library(tidyverse)
 library(xlsx)
 library(writexl)
 
+# Comment 1
+
 order_totals_1 <-
   read.xlsx("1st Grade Order Totals.xlsx", sheetIndex = 1) %>%
   rename(Item_Number = 2, Total_Requested = 5) %>%
